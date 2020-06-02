@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Learning.DesignPatterns
+namespace Learning.DesignPatterns.Console
 {
     class Program
     {

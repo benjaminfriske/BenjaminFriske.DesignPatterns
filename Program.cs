@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Learning.DesignPatterns.Domain.Models;
+using System;
 
 namespace Learning.DesignPatterns.Console
 {
@@ -6,7 +7,9 @@ namespace Learning.DesignPatterns.Console
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Customer customer = new Customer();
+            customer.Name = "Benjamin Friske";
+            System.Console.WriteLine("Hello World!" + customer.Name);
         }
     }
 }

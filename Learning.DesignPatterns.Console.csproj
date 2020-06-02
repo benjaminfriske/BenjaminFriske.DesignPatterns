@@ -5,4 +5,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="Learning.DesignPatterns.Domain">
+      <HintPath>..\Learning.DesignPatterns.Domain\bin\Debug\netstandard2.0\Learning.DesignPatterns.Domain.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
